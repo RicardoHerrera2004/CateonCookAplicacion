@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CateonCook.MainPage"
+             BackgroundColor="#0D2A5C">
+
+    <!-- Encabezado con logo -->
+    <Grid Padding="20" BackgroundColor="#0D2A5C">
+        <Image Source="cateoncooklogo.png"
+               Aspect="AspectFit"
+               HeightRequest="100"
+               HorizontalOptions="Center"/>
+    </Grid>
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="20">
+
+            <!-- Catálogo & Venta Contado -->
+            <Frame BackgroundColor="White"
+                   CornerRadius="15"
+                   Padding="15"
+                   HasShadow="True">
+                <HorizontalStackLayout>
+                    <Image Source="icon_catalogo.png"
+                           WidthRequest="50"
+                           HeightRequest="50"/>
+                    <Label Text="Catálogo & Venta Contado"
+                           VerticalOptions="Center"
+                           FontSize="18"
+                           TextColor="#0D2A5C"/>
+                </HorizontalStackLayout>
+            </Frame>
+
+            <!-- Planes de Pago & Financiamiento -->
+            <Frame BackgroundColor="White"
+                   CornerRadius="15"
+                   Padding="15"
+                   HasShadow="True">
+                <HorizontalStackLayout>
+                    <Image Source="icon_financiamiento.png"
+                           WidthRequest="50"
+                           HeightRequest="50"/>
+                    <Label Text="Planes de Pago & Financiamiento"
+                           VerticalOptions="Center"
+                           FontSize="18"
+                           TextColor="#0D2A5C"/>
+                </HorizontalStackLayout>
+            </Frame>
+
+            <!-- Rendimiento -->
+            <Frame BackgroundColor="White"
+                   CornerRadius="15"
+                   Padding="15"
+                   HasShadow="True">
+                <HorizontalStackLayout>
+                    <Image Source="icon_rendimiento.png"
+                           WidthRequest="50"
+                           HeightRequest="50"/>
+                    <Label Text="Rendimiento"
+                           VerticalOptions="Center"
+                           FontSize="18"
+                           TextColor="#0D2A5C"/>
+                </HorizontalStackLayout>
+            </Frame>
+
+            <!-- Perfil -->
+            <Frame BackgroundColor="White"
+                   CornerRadius="15"
+                   Padding="15"
+                   HasShadow="True">
+                <HorizontalStackLayout>
+                    <Image Source="icon_perfil.png"
+                           WidthRequest="50"
+                           HeightRequest="50"/>
+                    <Label Text="Perfil"
+                           VerticalOptions="Center"
+                           FontSize="18"
+                           TextColor="#0D2A5C"/>
+                </HorizontalStackLayout>
+            </Frame>
+
+            <!-- Historial -->
+            <Frame BackgroundColor="White"
+                   CornerRadius="15"
+                   Padding="15"
+                   HasShadow="True">
+                <HorizontalStackLayout>
+                    <Image Source="icon_historial.png"
+                           WidthRequest="50"
+                           HeightRequest="50"/>
+                    <Label Text="Historial"
+                           VerticalOptions="Center"
+                           FontSize="18"
+                           TextColor="#0D2A5C"/>
+                </HorizontalStackLayout>
+            </Frame>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

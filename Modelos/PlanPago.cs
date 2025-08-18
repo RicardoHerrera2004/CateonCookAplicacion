@@ -10,7 +10,7 @@ namespace CateonCook.Modelos
     public enum MetodoPago
     {
         TarjetaCredito,
-        EfectivoMasTarjeta,
+        EfectivoTarjeta,
         CreditoDirecto,
         Cheque
     }
